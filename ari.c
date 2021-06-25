@@ -7,7 +7,7 @@
 
 string ari(string s){
 int count_characters=0,count_words=0,count_sentences=0;
-for(int i=0;i<s[i]!='\0';i++){
+for(int i=0;s[i]!='\0';i++){
 if(isalnum(s[i]))
 count_characters++;
 if(s[i]==' ')
