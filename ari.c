@@ -3,6 +3,7 @@
 #include <string.h>
 #include <cs50.h>
 #include <ctype.h>
+#include <math.h>
 
 string ari(string s){
 int count_characters=0,count_words=0,count_sentences=0;
