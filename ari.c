@@ -43,7 +43,7 @@ int ari_score=ceil(score);
    return ("Twelfth grade");
    else if(ari_score==13)
    return ("College student");
-   else (ari_score==14)
+   else 
    return ("Professor");
    
 }
