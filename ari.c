@@ -12,7 +12,7 @@ if(isalnum(s[i]))
 count_characters++;
 if(s[i]==' ')
 count_words++;
-if(s[i]=='.'||s[i]=='!'||s[i]=='?)
+if(s[i]=='.'||s[i]=='!'||s[i]=='?')
 count_sentences++;
 }
 float score=4.71*((float)count_characters/count_words)+0.5*((float)count_words/count_sentences)-21.43;
