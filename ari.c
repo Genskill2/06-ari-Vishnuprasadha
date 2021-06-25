@@ -12,38 +12,38 @@ if(isalnum(s[i]))
 count_characters++;
 if(s[i]==' ')
 count_words++;
-if(s[i]=='.')
+if(s[i]=='.'||s[i]=='!'||s[i]=='?)
 count_sentences++;
 }
 float score=4.71*((float)count_characters/count_words)+0.5*((float)count_words/count_sentences)-21.43;
 int ari_score=ceil(score);
   if(ari_score==1)
-   return "Kindergarten";
+   return ("Kindergarten");
    else if(ari_score==2)
-   return "First/Second Grade";
+   return ("First/Second Grade");
    else if(ari_score==3)
-   return "Third Grade";
+   return ("Third Grade");
    else if(ari_score==4)
-   return "Fourth Grade";
+   return ("Fourth Grade");
    else if(ari_score==5)
-   return "Fifth Grade";
+   return ("Fifth Grade");
    else if(ari_score==6)
-   return "Sixth Grade";
+   return ("Sixth Grade");
    else if(ari_score==7)
-   return "Seventh Grade";
+   return ("Seventh Grade");
    else if(ari_score==8)
-   return "Eighth Grade";
+   return ("Eighth Grade");
    else if(ari_score==9)
-   return "Ninth Grade";
+   return ("Ninth Grade");
    else if(ari_score==10)
-   return "Tenth Grade";
+   return ("Tenth Grade");
    else if(ari_score==11)
-   return "Eleventh Grade";
+   return ("Eleventh Grade");
    else if(ari_score==12)
-   return "Twelfth grade";
+   return ("Twelfth grade");
    else if(ari_score==13)
-   return "College student";
+   return ("College student");
    else (ari_score==14)
-   return "Professor";
+   return ("Professor");
    
 }
